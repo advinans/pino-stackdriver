@@ -1,0 +1,32 @@
+{
+  "name": "@advinans/pino-stackdriver",
+  "version": "1.0.0",
+  "description":
+    "Format stdout from pino to a known stackdriver format. Should also be compatible with bunyan output.",
+  "bin": {
+    "psdriver": "./dist/bin"
+  },
+  "author": "Robert Stenbom <robert.stenbom@advinans.se>",
+  "maintainers": ["Robert Stenbom <robert.stenbom@advinans.se>"],
+  "scripts": {
+    "build": "babel bin.js -o dist/bin"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advinans/pino-stackdriver.git"
+  },
+  "keywords": ["pino", "stackdriver", "fast"],
+  "bugs": {
+    "url": "https://github.com/advinans/pino-stackdriver/issues"
+  },
+  "dependencies": {
+    "fast-json-parse": "^1.0.3",
+    "split2": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
