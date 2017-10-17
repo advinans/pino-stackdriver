@@ -1,6 +1,6 @@
 {
   "name": "@advinans/pino-stackdriver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Format stdout from pino to a known stackdriver format. Should also be compatible with bunyan output.",
   "bin": {
